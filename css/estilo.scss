@@ -281,16 +281,7 @@ nav li a, nav li button {
 	background-color: $colorprincipal;
 	padding: 10px;
 	border-radius: 14px;
-	:hover{
-		cursor: all-scroll;
-		border: 1px dashed red;
-	}
-	:active{
-		cursor: move;
-		-webkit-box-shadow: -1px 0px 33px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: -1px 0px 33px 0px rgba(0,0,0,0.75);
-		box-shadow: -1px 0px 33px 0px rgba(0,0,0,0.75);
-	}
+
   }
   .acordeon .contenedor {
 	position: relative;

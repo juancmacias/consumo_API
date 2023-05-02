@@ -117,7 +117,7 @@ const api = {
     },
     // iniciar distintos recursos para la solución
     iniciamos: () => {
-        //$('#imagenC').fadeOut(0);
+        $('#imagenC').fadeOut(0);
         $('#imagenC').click(() => { api.crerarIMG() });
 
         api.recuperarJSON("ccaa", "comunidad", "");
@@ -185,7 +185,7 @@ const api = {
                             });
                             $('.overlay').fadeOut(700);
                             acordeon.innerHTML = resumenA;
-                            //api.showMapa();
+                            api.showMapa();
                             api.cargarAcordeon();
                             api.crearQR();
                             $(".acordeon-cuerpo").fadeIn(600);
