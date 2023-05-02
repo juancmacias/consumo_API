@@ -1,18 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/google-map.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/precargar_pagina.css">
+
+	<script src="https://www.google.com/jsapi"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDllubM-y02LQfcj8HkeumkmYaV7hp1CiE"></script>
+	<title>Acceso al</title>
 </head>
-<body>
-    <a href=""></a>
-    <li>
-        <ul></ul>
-    </li>
-    <ul>
-        <ol></ol>
-    </ul>
+
+<body id="imagen">
+	<div class="solicitar">
+		<textarea
+			id="hacer">Lístame los 6 lugares mas interesante de Madrid España con su enlace. Separa el nombre y la url con un +</textarea>
+		<button id="vamos">Crear ruta de visita según las descripción</button>
+	</div>
+	<!-- menú acordeon con el resumen -->
+	<div class="acordeon-cuerpo">
+		<div id="resumen" class="acordeon">
+		</div>
+		<!-- para el QR-->
+		<div id="qrcode" ></div>
+	</div>
+	<!-- Mis pantallas de recopilación de datos para crear la ruta-->
+	<div class="wrapper">
+		<header>
+			<nav>
+				<ul>
+					<li><a class="btn" href="index.html">Iniciar de nuevo</a></li>
+					<li><button id="imagenC">Hacer imagen</button></li>
+					
+				</ul>
+			</nav>
+		</header>
+
+		<div class="main">
+			<section class="snap-container content">
+				<div class="snap-section parallax img-uno" data-id="p" id="m">
+					<div class="texto-interior animate">
+						<h2>Mí IA creadora de rutas</h2>
+						<p>Actualmente solo se realizan en España</p>
+						<a href="#p">Comenzar ha definir mi ruta</a>
+					</div>
+				</div><!-- .parallax -->
+				<div class="snap-section parallax img-dos" data-id="c" id="p">
+					<div class="texto-interior animate">
+						<h2>¿En que comunidad autónoma?</h2>
+						<select id="comunidad" class="select-css">
+							<option selected disabled="disabled">Selecciona una Comunidad autónoma</option>
+						</select>
+					</div>
+				</div> <!-- .parallax -->
+				<div class="snap-section parallax img-tres" data-id="y" id="c">
+					<div class="texto-interior animate">
+						<h2>¿Y la provincia?</h2>
+						<select id="provincia" class="select-css">
+							<option selected disabled>Selecciona una provincia</option>
+						</select>
+					</div>
+				</div> <!-- .parallax -->
+				<div class="snap-section parallax img-cuatro" id="y">
+					<div class="texto-interior animate">
+						<h2>¿Selecciona una población?</h2>
+						<select id="poblacion" class="select-css">
+							<option selected disabled>Listado de poblaciones</option>
+						</select>
+					</div>
+				</div> <!-- .parallax -->
+				<div class="snap-section parallax img-cinco" id="l">
+					<div class="texto-interior animate">
+						<h2>Número de lugares</h2>
+						<select id="numero" class="select-css">
+							<option>Selecciona un número</option>
+							<option value="2">2</option>
+							<option value="4">4</option>
+							<option value="6">6</option>
+						</select>
+					</div>
+				</div> <!-- .parallax -->
+			</section> <!-- .content -->
+		</div>
+	</div>
+	<!-- preparar el mapa -->
+	<div class="overlay">
+		<div class="science">
+			<div class="isthis">
+				<span class="thisisscienceiguess"></span>
+				<span class="andthisistoo"></span>
+				<span class="thisistooofcourse"></span>
+			</div>
+		</div>
+	</div>
+	<!-- el mapa -->
+	<div id="google-map">
+		<div id="localidad"></div>
+		<div id="zomm">12</div>
+	</div> 
+
+
 </body>
+
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" async></script>
+<script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" async></script>
+
+<script type="text/javascript" src="js/qrcode.js" async></script>
+<script type="text/javascript" src="js/app.js" async></script>
+
 </html>
