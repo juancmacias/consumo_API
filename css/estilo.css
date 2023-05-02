@@ -1,24 +1,5 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-:root {
-  --hue: 220;
-  --sat: 100;
-  --light: 81;
-}
-
-.wrapper a, nav li button {
-  color: hsl(var(--hue), calc(var(--sat) * 1%), calc(var(--light) * 1%));
-  /*--breakpoint: 100;
-  --g: calc((clamp(0, var(--num), var(--breakpoint)) - calc(var(--breakpoint) - 1)) * 255);
-
-
-   }
-   .btn:after {
-  counter-reset: variable var(--num);
-  content: counter(variable);*/
-  mix-blend-mode: color-dodge;
-}
-
 * {
   border: 0;
   box-sizing: border-box;
@@ -92,9 +73,13 @@ nav li {
   text-align: center;
 }
 
+a, button {
+  color: #fffefe;
+}
+
 nav li a, nav li button {
   border: 2px solid #fffefe;
-  background: rgba(240, 248, 255, 0.0117647059);
+  background: rgba(47, 117, 177, 0.68);
   font-family: helvetica;
   font-size: 2rem;
   padding: 10px 30px;
@@ -215,6 +200,10 @@ nav li a, nav li button {
 
 .select-css option[selected] {
   background-color: orange;
+}
+
+select::backdrop {
+  height: 100px;
 }
 
 #qrcode {

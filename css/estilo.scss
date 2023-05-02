@@ -1,27 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 $colorprincipal: #fffefe;
 $gris: grey;
-:root {
-	--hue: 220;
-	--sat: 100;
-	--light: 81;
-  }
-  
-  .wrapper a, nav li button  {
-	color: hsl(var(--hue), calc(var(--sat) * 1%), calc(var(--light) * 1%));
-	/*--breakpoint: 100;
-	--g: calc((clamp(0, var(--num), var(--breakpoint)) - calc(var(--breakpoint) - 1)) * 255);
-	
-	
-  }
-  .btn:after {
-	counter-reset: variable var(--num);
-	content: counter(variable);*/
 
-	//mix-blend-mode: difference;
-	//color: rgb(0, var(--g), 0);
-	mix-blend-mode: color-dodge;
- }
 
 
 * {
@@ -101,11 +81,13 @@ nav li {
 	display: table-cell;
 	text-align: center
 }
-
+a, button{
+	color: $colorprincipal;
+}
 nav li a, nav li button {
 	//background-color: rgba(50, 50, 50, .2);
 	border: 2px solid $colorprincipal;
-	background: #f0f8ff03;
+	background: rgb(47 117 177 / 68%);
 	//color: $colorprincipal;
 	font-family: helvetica;
 	font-size: 2rem;
@@ -238,6 +220,9 @@ nav li a, nav li button {
 	background-color: orange;
 }
 
+select::backdrop{
+	height: 100px;
+}
 // para el QR
 #qrcode {
 	width: 274px;
