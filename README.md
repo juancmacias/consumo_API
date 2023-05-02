@@ -30,30 +30,29 @@ Para el bootcamp "Consumo de una API"
     - En caso de hacerlo, enviar el Link del Deploy
 
 
- 
+<div> 
 <h3>Solución:</h3>
-<div>
+
 Desarrollar una solución/herrameienta en la que podamos ser guiados en una ruta de visita por las distintas capitales de provincia y sus comunidades, usaremos:
+- Tres archivos JSON:
+  - Comunidades autonomas: lista de comunidades
+  - Provincias: lista de provincias
+  - Poblaciones: lista de poblaciones
+- chat GPT: para la selección de los lugares
+- Google Maps
 
-    - Tres archivos JSON:
-        - Comunidades autonomas: lista de comunidades
-        - Provincias: lista de provincias
-        - Poblaciones: lista de poblaciones
-    - chat GPT: para la selección de los lugares
-    - Google Maps
-
-    Tambien como solución para ver detalles, tras mostrar por pantalla la ruta con los lugares elegidos, se generará un ccódigo QR el cual enlazara con la app de Google Maps de nuestro SmartPhone.
-    Tambien el resultado se podra descargar como imagen independiente con la lista de lugares, código qr y ruta en el mapa de Google.
-    Para la creación del QR y de la imagen, se usan las librerias de JS
+Tambien como solución para ver detalles, tras mostrar por pantalla la ruta con los lugares elegidos, se generará un ccódigo QR el cual enlazara con la app de Google Maps de nuestro SmartPhone.
+Tambien el resultado se podra descargar como imagen independiente con la lista de lugares, código qr y ruta en el mapa de Google.
+Para la creación del QR y de la imagen, se usan las librerias de JS
     
-    - QRCode.js
-    - html2canvas.js
+- QRCode.js
+- html2canvas.js
 
 
 <a href="https://juancmacias.github.io/consumo_API/index.html">Despliege de la solución</a>
 
-<p style = 'text-align:center;'>
 
+<p style = 'text-align:center;'>
 <img src="img/jcms760.png" width="100%">
 </p>
 </div>
