@@ -32,7 +32,7 @@ Para el bootcamp "Consumo de una API"
 
  
 <h3>Solución:</h3>
-
+<div>
 Desarrollar una solución/herrameienta en la que podamos ser guiados en una ruta de visita por las distintas capitales de provincia y sus comunidades, usaremos:
 
     - Tres archivos JSON:
@@ -50,7 +50,13 @@ Desarrollar una solución/herrameienta en la que podamos ser guiados en una ruta
     - html2canvas.js
 
 
+<a href="https://juancmacias.github.io/consumo_API/index.html">Despliege de la solución</a>
 
+<p style = 'text-align:center;'>
+
+<img src="img/jcms760.png" width="100%">
+</p>
+</div>
 
 
 
