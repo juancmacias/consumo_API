@@ -59,6 +59,9 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
 <img src="img/jcms760.png" width="100%">
 </p>
 </div>
+<a href="https://github.com/juancmacias">
+    <img src="https://avatars.githubusercontent.com/u/53483587?v=4" title="Juan Carlos Macías" width="80" height="80" style="max-width: 100%;">
+</a>
 
 
 
