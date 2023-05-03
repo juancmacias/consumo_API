@@ -47,7 +47,7 @@ Un UML de actividad básico sería:
 
 ```mermaid
 graph TD;
-    A(Inicio)-->B(Seleccionar comunidad)-->C(Seleccionar provincia)-->D(Seleccionar localidad);
+    A(Inicio)-->B(Seleccionar Comunidad Autónoma)-->C(Seleccionar provincia)-->D(Seleccionar localidad);
     D-->E(Número de itinerarios);
     E-->F(Mostrar itinerario);
     F-->A;
