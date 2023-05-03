@@ -42,7 +42,14 @@ Desarrollar una solución/herrameienta en la que podamos ser guiados en una ruta
 - Google Maps
 <p style = 'text-align:center;'>
 Un UML de actividad básico sería:
-<img src="img/uml_.png" width="100%">
+```mermaid
+graph TD;
+    A(Inicio)-->B(Seleccionar comunidad)-->C(Seleccionar provincia)-->D(Seleccionar localidad);
+    D-->E(Número de itinerarios);
+    E-->A;
+    E-->F(Leer QR);
+    E-->G(Crear imagen);
+```
 </p>
 Tambien como solución para ver detalles, tras mostrar por pantalla la ruta con los lugares elegidos, se generará un ccódigo QR el cual enlazara con la app de Google Maps de nuestro SmartPhone.
 Tambien el resultado se podra descargar como imagen independiente con la lista de lugares, código qr y ruta en el mapa de Google.
@@ -54,6 +61,7 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
 
 <a href="https://juancmacias.github.io/consumo_API/">Despliege de la solución</a>
 
+Here is a simple flow chart:
 
 <p style = 'text-align:center;'>
 <img src="img/jcms760.png" width="100%">
@@ -62,6 +70,8 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
 <a href="https://github.com/juancmacias">
     <img src="https://avatars.githubusercontent.com/u/53483587?v=4" title="Juan Carlos Macías" width="80" height="80" style="max-width: 100%;">
 </a>
+
+
 
 
 
