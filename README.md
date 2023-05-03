@@ -49,9 +49,10 @@ Un UML de actividad básico sería:
 graph TD;
     A(Inicio)-->B(Seleccionar comunidad)-->C(Seleccionar provincia)-->D(Seleccionar localidad);
     D-->E(Número de itinerarios);
-    E-->A;
-    E-->F(Leer QR);
-    E-->G(Crear imagen);
+    E-->F(Mostrar itinerario);
+    F-->A;
+    F-->G(Leer QR);
+    F-->H(Crear imagen);
 ```
 
 
