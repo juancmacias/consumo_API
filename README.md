@@ -40,7 +40,10 @@ Desarrollar una solución/herrameienta en la que podamos ser guiados en una ruta
   - Poblaciones: lista de poblaciones
 - chat GPT: para la selección de los lugares
 - Google Maps
-
+<p style = 'text-align:center;'>
+Un UML de actividad básico sería:
+<img src="img/uml_.png" width="100%">
+</p>
 Tambien como solución para ver detalles, tras mostrar por pantalla la ruta con los lugares elegidos, se generará un ccódigo QR el cual enlazara con la app de Google Maps de nuestro SmartPhone.
 Tambien el resultado se podra descargar como imagen independiente con la lista de lugares, código qr y ruta en el mapa de Google.
 Para la creación del QR y de la imagen, se usan las librerias de JS
@@ -49,7 +52,7 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
 - html2canvas.js
 
 
-<a href="https://juancmacias.github.io/consumo_API/index.html">Despliege de la solución</a>
+<a href="https://juancmacias.github.io/consumo_API/">Despliege de la solución</a>
 
 
 <p style = 'text-align:center;'>
