@@ -1,13 +1,6 @@
-// cargar el json de comunidades autonomas
-// recuperar el key del servidor seguro
-
+// Inicializamos las variables necesarias
 let apiKey;
 let maxTokens = 199;
-
-let neighborhoods = [];
-
-let retorno = false;
-let respuesta = "";
 let seleccion = "";
 let markers_mapa = [];
 // inicializar la "api"
@@ -90,7 +83,7 @@ const api = {
             })
             .then(function (response) {
                 var generatedText = response.choices[0].text;
-                console.log("tal cual --->>>>>>" + generatedText + " retorno " + retorno);
+                console.log("tal cual --->>>>>>" + generatedText + " retorno ");
                 var arrayDeCadenas = generatedText.split(/\r\n|\r|\n/);
 
                 arrayDeCadenas.forEach(item => {
