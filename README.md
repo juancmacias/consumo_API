@@ -78,7 +78,7 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
     <img src="https://avatars.githubusercontent.com/u/53483587?v=4" title="Juan Carlos Macías" width="80" height="80" style="max-width: 100%;">
 </a>
 
-# Tecnologia usada:
+# Tecnología usada:
 
 <img style="height:70px ;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png">
 <img style="height: 70px;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/JQuery-Logo.svg">
