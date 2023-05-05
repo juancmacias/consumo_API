@@ -17,6 +17,7 @@ const api = {
             });
         api.recuperarJSON('ccaa');
     },
+
     // recuperar del JSON las Comunidades Autonomas, Provincia y poblaciones para elegir la ruta
     /*
     PRUEBA DE CONSUMO JSON EN DRIVER GOOGLE
@@ -43,6 +44,7 @@ const api = {
                 });
             });
     },
+
     // localizar las coordenadas de cada lugar
     recuperarCoordenadas: (ubicacion) => {
         var geocoder = new google.maps.Geocoder;
@@ -64,6 +66,7 @@ const api = {
             }
         });
     },
+
     // consultar a chatGPT
     generarGPT: async (prompt) => {
         console.log("Iniciando consulta en chatGPT");
@@ -99,6 +102,8 @@ const api = {
                 console.info(error);
             })
     },
+    // recargar el acordeon para las acciones
+    /* AHORA EN DESUSO */
     cargarAcordeon: () => {
         const acordeon = document.getElementsByClassName('contenedor');
         for (i = 0; i < acordeon.length; i++) {
@@ -108,6 +113,7 @@ const api = {
         }
 
     },
+
     // iniciar distintos recursos para la solución
     iniciamos: () => {
         $('#imagenC').fadeOut(0);
@@ -189,6 +195,7 @@ const api = {
             });
         });
     },
+
     // Mostramos el mapa con las posiciones y la ruta
     showMapa: () => {
         var mapOptions = {
@@ -256,7 +263,8 @@ const api = {
             }
         }
     },
-    // Crear an show QR
+
+    // Crear and show QR
     crearQR: () => {
         var qrcode = new QRCode("qrcode");
         // construir la url así: -> https://www.google.es/maps/dir/40.402336,-3.7055008/40.403823,-3.706579/40.4043305,-3.7048517/40.4026516,-3.7037091/@40.4032521,-3.7073616
