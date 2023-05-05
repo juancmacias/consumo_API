@@ -39,7 +39,7 @@ Desarrollar una solución/herrameienta en la que podamos ser guiados en una ruta
   - Provincias: lista de provincias
   - Poblaciones: lista de poblaciones
 - chat GPT: para la selección de los lugares
-- Google Maps
+- Google Maps: para mostrar los resultados
 <p style = 'text-align:center;'>
 Un UML de actividad básico sería:
 </p>
@@ -71,9 +71,19 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
 <img src="img/jcms760.png" width="100%">
 </p>
 </div>
+
+# Desarrollador:
+
 <a href="https://github.com/juancmacias">
     <img src="https://avatars.githubusercontent.com/u/53483587?v=4" title="Juan Carlos Macías" width="80" height="80" style="max-width: 100%;">
 </a>
+
+# Tecnologia usada:
+
+<img style="height:70px ;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png">
+<img style="height: 70px;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/JQuery-Logo.svg">
+<img style="height: 70px ;" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg">
+
 
 
 
