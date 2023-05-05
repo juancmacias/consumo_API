@@ -290,5 +290,3 @@ const api = {
 
 // INICIAMOS LA APP
 api.recuperarAPI();
-
-
