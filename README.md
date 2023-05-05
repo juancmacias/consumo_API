@@ -80,12 +80,12 @@ Para la creación del QR y de la imagen, se usan las librerias de JS
 </a>
 
 # Tecnología usada:
-
+<p style = 'text-align:left;'>
 <img style="height:70px ;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png">
 <img style="height: 70px;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/JQuery-Logo.svg">
 <img style="height: 70px ;" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg">
 
-
+</p>
 
 
 
